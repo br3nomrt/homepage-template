@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    margin: 0vw 10vw;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0px;
+    margin-bottom: 50px;
+}
+
+.cabecalho-links {
+    padding: 15px;
+}
+
+.cabecalho-botao {
+    color: white;
+    background-color: rgba(55, 40, 101, 255);
+    padding: 20px;
+    border-radius: 5px;
+    border-style: hidden;
+    width: 120px;
+    cursor: pointer;
+}
+
+.cabecalho-botao:hover {
+    background-color: rgba(55, 40, 120, 255);
+}
+
+.meio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.left-mid {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.ilustration {
+    height: 450px;
+    width: 350px;
+}
+
+.firstline {
+    color: rgba(178, 167, 207, 255);
+    background-color: rgba(55, 40, 101, 255);
+    padding: 10px 25px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.title {
+    color: rgba(53, 50, 82, 255);
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.barra {
+    width: 300px;
+    padding: 18px 18px;
+    margin: 8px 0px;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.icones {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+body {
+    font-size: 100%;
+    background-color: rgba(234, 234, 234, 255);
+    font-family: 'Nunito Sans', sans-serif;
+}
